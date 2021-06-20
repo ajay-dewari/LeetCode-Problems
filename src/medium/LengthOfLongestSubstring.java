@@ -53,14 +53,10 @@ public class LengthOfLongestSubstring {
             char c = s.charAt(i);
             if (!str.contains("" + c)) {
                 str = str + c;
-                if (str.length() >= max) {
-                    max = str.length();
-                }
+                max = Math.max(max, str.length());
             } else {
                 str = str.substring(str.indexOf(c) + 1) + c;
-                if (str.length() >= max) {
-                    max = str.length();
-                }
+                max = Math.max(str.length(), max);
             }
         }
         return max;
