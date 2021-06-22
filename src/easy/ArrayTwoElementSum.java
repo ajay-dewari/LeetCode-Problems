@@ -32,7 +32,7 @@ public class ArrayTwoElementSum {
 
     public static void main(String[] args) {
         int[] array = {3,2,4};
-        int[] sumArray = pairSum(array, 6);
+        int[] sumArray = twoSum(array, 6);
         for(int i=0; i<sumArray.length;i++) {
             System.out.print(sumArray[i]+" ");
         }
