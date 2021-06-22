@@ -54,6 +54,7 @@ public class ArrayTwoElementSum {
     }
 
     //iterative approach with n complexity
+    //find two products in array with given sum problem solved with iterative approach with n worst complexity
     public static int[] pairSum(int[] nums, int target) {
         Set<Integer> set = new HashSet(Arrays.asList(nums));
         int[] arr = new int[2];
