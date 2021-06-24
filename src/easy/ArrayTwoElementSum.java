@@ -8,6 +8,9 @@ import java.util.Set;
  * @author ajay-dewari
  * @since 20 Jun 2021
  * <p>
+ * Two Sum @see <a href="https://leetcode.com/problems/two-sum/">
+ *
+ * <p>
  * Given an array of integers nums and an integer target, return indices
  * of the two numbers such that they add up to target.
  * <p>
@@ -31,10 +34,10 @@ import java.util.Set;
 public class ArrayTwoElementSum {
 
     public static void main(String[] args) {
-        int[] array = {3,2,4};
+        int[] array = {3, 2, 4};
         int[] sumArray = twoSum(array, 6);
-        for(int i=0; i<sumArray.length;i++) {
-            System.out.print(sumArray[i]+" ");
+        for (int i = 0; i < sumArray.length; i++) {
+            System.out.print(sumArray[i] + " ");
         }
     }
 
