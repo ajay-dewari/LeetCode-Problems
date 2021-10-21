@@ -47,3 +47,45 @@ public class BinarySearch {
         return -1;
     }
 }
+
+/*
+ * =============Test Case=========
+ * <p>
+ * Example 1:
+ * <p>
+ * Input: nums = [-1,0,3,5,9,12], target = 9
+ * Output: 4
+ * Explanation: 9 exists in nums and its index is 4
+ * <p>
+ * Example 2:
+ * <p>
+ * Input: nums = [-1,0,3,5,9,12], target = 2
+ * Output: -1
+ * Explanation: 2 does not exist in nums so return -1
+ * <p>
+ * Example 3:
+ * <p>
+ * [-1,0,3,5,9,12]
+ * 2
+ * Output: -1
+ * <p>
+ * Example 4:
+ * [2,5]
+ * 5
+ * Output: 1
+ * <p>
+ * Example 5:
+ * [5]
+ * 5
+ * Output: 0
+ * <p>
+ * Example 6:
+ * [-1,0,3,5,9,12]
+ * 2
+ * Output: -1
+ * <p>
+ * Example 7:
+ * [-1,0,5]
+ * 2
+ * Output: -1
+ */
