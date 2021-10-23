@@ -41,7 +41,7 @@ public class ArrayTwoElementSum {
         }
     }
 
-    //iterative approach with n2 worst case complexity
+    //iterative approach with worst case complexity = n2
     public static int[] twoSum(int[] nums, int target) {
         int[] arr = new int[2];
         for (int i = 0; i < nums.length; i++) {
@@ -57,7 +57,7 @@ public class ArrayTwoElementSum {
     }
 
     //iterative approach with n complexity
-    //find two products in array with given sum problem solved with iterative approach with n worst complexity
+    //find two products in array with given sum problem solved with iterative approach with worst case complexity = n
     public static int[] pairSum(int[] nums, int target) {
         Set<Integer> set = new HashSet(Arrays.asList(nums));
         int[] arr = new int[2];
