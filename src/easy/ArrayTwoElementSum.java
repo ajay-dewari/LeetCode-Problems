@@ -5,8 +5,6 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author ajay-dewari
- * @since 20 Jun 2021
  * <p>
  * Two Sum @see <a href="https://leetcode.com/problems/two-sum/">
  *
@@ -30,6 +28,9 @@ import java.util.Set;
  * <p>
  * Input: nums = [3,3], target = 6
  * Output: [0,1]
+ *
+ * @author ajay-dewari
+ * @since 20 Jun 2021
  */
 public class ArrayTwoElementSum {
 

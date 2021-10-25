@@ -1,8 +1,6 @@
 package easy;
 
 /**
- * @author ajay-dewari
- * @since 21 Oct 2021
  * <p>
  * Two Sum @see <a href="https://leetcode.com/problems/binary-search/">
  *
@@ -20,6 +18,9 @@ package easy;
  * All the integers in nums are unique.
  * nums is sorted in ascending order.
  * <p>
+ *
+ * @author ajay-dewari
+ * @since 21 Oct 2021
  */
 
 

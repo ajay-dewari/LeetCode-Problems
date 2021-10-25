@@ -1,8 +1,6 @@
 package easy;
 
 /**
- * @author ajay-dewari
- * @since 24 Jun 2021
  * <p>
  * <p>
  * Reverse Integer @see <a href="https://leetcode.com/problems/reverse-integer/">
@@ -31,6 +29,9 @@ package easy;
  * <p>
  * Constraints:
  * -231 <= x <= 231 - 1
+ *
+ * @author ajay-dewari
+ * @since 24 Jun 2021
  */
 public class ReverseInteger {
 
